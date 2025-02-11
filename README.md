@@ -1,0 +1,1 @@
+This example demonstrates a common error in VBScript's error handling. The `MyFunction` demonstrates a scenario where `Err.Raise` is used without adequate error handling in the calling function. This can lead to script termination or unexpected results. The solution shows how to properly handle the error using an `On Error Resume Next` block and error checking.
